@@ -1,6 +1,7 @@
 package be.pxl.student.entity;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class Account {
@@ -39,5 +40,19 @@ public class Account {
                 "IBAN='" + IBAN + '\'' +
                 ", name='" + name + '\'' +
                 ", payments=[" + payments.stream().map(Payment::toString).collect(Collectors.joining(",")) + "]}";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Account account = (Account) o;
+        return Objects.equals(IBAN, account.IBAN) &&
+                Objects.equals(name, account.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(IBAN, name);
     }
 }
