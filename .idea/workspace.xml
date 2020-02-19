@@ -30,7 +30,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BudgetPlanner">
     <configuration name="BudgetPlanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.pxl.student.BudgetPlanner" />
       <module name="BudgetPlanner" />
@@ -44,9 +44,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BudgetPlannerFeeder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.pxl.student.util.BudgetPlannerFeeder" />
+      <module name="BudgetPlanner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.pxl.student.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BudgetPlanner" />
+        <item itemvalue="Application.BudgetPlannerFeeder" />
       </list>
     </recent_temporary>
   </component>
@@ -60,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582118238136</updated>
-      <workItem from="1582118253221" duration="3889000" />
+      <workItem from="1582118253221" duration="5108000" />
     </task>
     <servers />
   </component>
@@ -72,22 +86,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582119614774" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582123235950">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582124666030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582123235950" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582123235950">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582124666030" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582124666029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582123235950" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582123235950">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582124666029" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582124666029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582123235950" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582123235950">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582124666029" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582124666029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582123235950" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582124666029" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1582123588175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582123588175" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582119623876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
