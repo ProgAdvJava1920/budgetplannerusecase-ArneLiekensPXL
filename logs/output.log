@@ -858,3 +858,23 @@
 2020-02-26 14:27:11,826 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
 2020-02-26 14:27:11,826 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
 2020-02-26 14:27:11,826 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-02-26 14:37:04,794 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-02-26 14:37:04,841 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-02-26 14:37:04,841 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-02-26 14:37:04,853 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-02-26 14:37:04,855 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-02-26 14:37:04,855 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-02-26 14:37:04,855 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-02-26 14:37:04,855 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-02-26 14:37:04,856 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
+2020-02-26 14:37:04,856 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-02-26 14:37:41,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-02-26 14:37:41,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-02-26 14:37:41,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-02-26 14:37:41,788 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-02-26 14:37:41,790 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-02-26 14:37:41,790 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-02-26 14:37:41,790 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-02-26 14:37:41,790 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-02-26 14:37:41,791 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
+2020-02-26 14:37:41,791 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported

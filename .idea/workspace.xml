@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee36e21-b19a-4702-9194-8329b5969f62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/be/pxl/student/util/BudgetPlannerImporterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BudgetPlanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BudgetPlanner.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/output.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerImporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/BudgetPlanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/BudgetPlanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/util/BudgetPlannerImporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/util/BudgetPlannerImporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/be/pxl/student/util/BudgetPlannerImporterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/be/pxl/student/util/BudgetPlannerImporterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/pxl/student/util/BudgetPlannerImporterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/pxl/student/util/BudgetPlannerImporterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +129,7 @@
       <workItem from="1582118253221" duration="5936000" />
       <workItem from="1582369399887" duration="2456000" />
       <workItem from="1582716059436" duration="41000" />
-      <workItem from="1582720165708" duration="3385000" />
+      <workItem from="1582720165708" duration="4248000" />
     </task>
     <servers />
   </component>
@@ -144,25 +141,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582119614774" />
-    <state width="1493" height="147" key="GridCell.Tab.0.bottom" timestamp="1582723630471">
+    <state width="1493" height="147" key="GridCell.Tab.0.bottom" timestamp="1582724260593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582723630471" />
+    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582724260593" />
     <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582128329055" />
-    <state width="1493" height="147" key="GridCell.Tab.0.center" timestamp="1582723630470">
+    <state width="1493" height="147" key="GridCell.Tab.0.center" timestamp="1582724260593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582723630470" />
+    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582724260593" />
     <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582128329055" />
-    <state width="1493" height="147" key="GridCell.Tab.0.left" timestamp="1582723630470">
+    <state width="1493" height="147" key="GridCell.Tab.0.left" timestamp="1582724260593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582723630470" />
+    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582724260593" />
     <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582128329054" />
-    <state width="1493" height="147" key="GridCell.Tab.0.right" timestamp="1582723630470">
+    <state width="1493" height="147" key="GridCell.Tab.0.right" timestamp="1582724260593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582723630470" />
+    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582724260593" />
     <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582128329055" />
     <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1582123588175">
       <screen x="0" y="0" width="1536" height="824" />
