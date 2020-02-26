@@ -17,39 +17,30 @@ import org.apache.logging.log4j.*;
  * Util class to import csv file
  */
 public class BudgetPlannerImporter {
-    private Path filePath;
-    private List<Account> accounts;
+
     private static Logger logger;
 
-    public BudgetPlannerImporter(Path filePath) {
-        this.filePath = filePath;
-        accounts = new ArrayList<>();
+    public BudgetPlannerImporter() {
         logger = LogManager.getLogger();
     }
 
-    public List<Account> getAccounts() {
-        return accounts;
-    }
-
-    public void importData() {
+    public List<Account> importData(Path filePath) {
+        List<Account> accounts = new ArrayList<>();
         logger.debug("Importing Data");
         try(BufferedReader reader = Files.newBufferedReader(filePath)) {
             String line = null;
-            int index = 0;
             reader.readLine();
             while ((line = reader.readLine()) != null) {
-                if(index != 0) {
-                    createObjects(line);
-                }
-                index++;
+                createObjects(line, accounts);
             }
         } catch (IOException e) {
             logger.error(e);
         }
         logger.debug("Data imported");
+        return accounts;
     }
 
-    private void createObjects(String line) {
+    private void createObjects(String line, List<Account> accounts) {
         Account account;
         String[] seperatedLine = line.split(",");
         account = new Account();
@@ -57,7 +48,7 @@ public class BudgetPlannerImporter {
         account.setName(seperatedLine[0]);
 
         if(accounts.contains(account)) {
-            logger.debug("Account" + account.getName() + "already exists, adding new payment");
+            logger.debug("Account " + account.getName() + " already exists, adding new payment");
             int index = accounts.indexOf(account);
             accounts.get(index).getPayments().add(createPayment(seperatedLine));
             logger.debug("Payment added to " + account.getName());
@@ -72,7 +63,7 @@ public class BudgetPlannerImporter {
 
     }
 
-    private Payment createPayment(String[] seperatedLine) {
+    protected Payment createPayment(String[] seperatedLine) {
         logger.debug("Creating new Payment");
         String dateString = seperatedLine[3];
         float ammount = Float.parseFloat(seperatedLine[4]);
