@@ -2,17 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee36e21-b19a-4702-9194-8329b5969f62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/dao/PaymentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BudgetPlanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BudgetPlanner.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/output.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/be/pxl/student/util/BudgetPlannerImporterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/be/pxl/student/util/BudgetPlannerImporterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/pxl/student/util/BudgetPlannerImporterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/pxl/student/util/BudgetPlannerImporterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - budgetplanner@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - budgetplanner@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - budgetplanner@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="budgetplanner: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,13 +70,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;mariadb" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JA2_introduction_jdbc" />
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/ArneLiekensPXL/JA2_introduction_jdbc.git" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\pxl\Tweede_jaar\Semester_2\java\oefeningen\budgetplannerusecase-ArneLiekensPXL" />
     </key>
@@ -48,7 +89,14 @@
       <recent name="D:\pxl\Tweede_jaar\Semester_2\java\oefeningen\budgetplannerusecase-ArneLiekensPXL\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BudgetPlannerImporterTest.importDataCreatesAccountListWithAccounts">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="docker-deploy" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BudgetPlanner">
     <configuration name="BudgetPlanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.pxl.student.BudgetPlanner" />
       <module name="BudgetPlanner" />
@@ -109,12 +157,34 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BudgetPlanner" />
         <item itemvalue="JUnit.BudgetPlannerImporterTest.importDataCreatesAccountListWithAccounts" />
         <item itemvalue="JUnit.BudgetPlannerImporterTest.importDataCreates2AccountsWhenNeeded" />
-        <item itemvalue="Application.BudgetPlanner" />
         <item itemvalue="Application.BudgetPlannerFeeder" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MariaDB - budgetplanner@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MariaDB - budgetplanner@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7458a796" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -129,7 +199,9 @@
       <workItem from="1582118253221" duration="5936000" />
       <workItem from="1582369399887" duration="2456000" />
       <workItem from="1582716059436" duration="41000" />
-      <workItem from="1582720165708" duration="4248000" />
+      <workItem from="1582720165708" duration="4349000" />
+      <workItem from="1583325311379" duration="4565000" />
+      <workItem from="1583330807476" duration="3012000" />
     </task>
     <servers />
   </component>
@@ -137,34 +209,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#New_Docker_Connection" timestamp="1583328995096">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#New_Docker_Connection/0.0.1536.824@0.0.1536.824" timestamp="1583328995096" />
+    <state x="418" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583331269056">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583331269056" />
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1582119614774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582119614774" />
-    <state width="1493" height="147" key="GridCell.Tab.0.bottom" timestamp="1582724260593">
+    <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1583334184350">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582724260593" />
+    <state width="242" height="189" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1583334184350" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1583331549412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583331549412" />
+    <state width="1493" height="147" key="GridCell.Tab.0.bottom" timestamp="1583334227844">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583334227844" />
     <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582128329055" />
-    <state width="1493" height="147" key="GridCell.Tab.0.center" timestamp="1582724260593">
+    <state width="1493" height="147" key="GridCell.Tab.0.center" timestamp="1583334227844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582724260593" />
+    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583334227844" />
     <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582128329055" />
-    <state width="1493" height="147" key="GridCell.Tab.0.left" timestamp="1582724260593">
+    <state width="1493" height="147" key="GridCell.Tab.0.left" timestamp="1583334227844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582724260593" />
+    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583334227844" />
     <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582128329054" />
-    <state width="1493" height="147" key="GridCell.Tab.0.right" timestamp="1582724260593">
+    <state width="1493" height="147" key="GridCell.Tab.0.right" timestamp="1583334227844">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582724260593" />
+    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583334227844" />
     <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582128329055" />
     <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1582123588175">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582123588175" />
+    <state x="485" y="63" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583334030458">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="63" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1583334030458" />
     <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1582716060766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

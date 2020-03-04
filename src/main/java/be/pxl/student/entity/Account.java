@@ -10,6 +10,7 @@ public class Account {
     private String IBAN;
     private String name;
     private List<Payment> payments;
+    private int id;
 
     public Account() {
         this.payments = new ArrayList<>();
@@ -41,6 +42,14 @@ public class Account {
 
     public void addPayment(Payment payment) {
         this.payments.add(payment);
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getId() {
+        return id;
     }
 
     @Override
