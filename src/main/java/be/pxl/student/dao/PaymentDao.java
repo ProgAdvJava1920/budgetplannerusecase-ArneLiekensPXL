@@ -10,7 +10,7 @@ public class PaymentDao {
     private static final String SELECT_BY_ID = "SELECT * FROM payment WHERE id = ?";
     private static final String SELECT_BY_ACCOUNT_ID = "SELECT * FROM payment WHERE accountId = ?";
     private static final String UPDATE = "UPDATE payment SET date=?, amount=?, currency=?, detail=?, accountId=? WHERE id = ?";
-    private static final String INSERT = "INSERT INTO payment (date, amount, currency, detail, accountId, counterAccountId) VALUES (?, ?, ?, ?, ?, 1)";
+    private static final String INSERT = "INSERT INTO payment (date, amount, currency, detail, accountId, counterAccountId) VALUES (?, ?, ?, ?, ?, ?)";
     private static final String DELETE = "DELETE FROM payment WHERE id = ?";
     private String url;
     private String user;
@@ -35,7 +35,7 @@ public class PaymentDao {
         return null;
     }
 
-    public Payment createPayment(Payment payment, Account account) {
+    public Payment createPayment(Payment payment, Account account, Account counterAccount) {
         try (Connection connection = getConnection(); PreparedStatement stmt = connection.prepareStatement(INSERT, Statement.RETURN_GENERATED_KEYS)) {
 
             stmt.setDate(1, new Date(payment.getDate().getYear(), payment.getDate().getMonthValue(), payment.getDate().getDayOfMonth()));
@@ -43,6 +43,7 @@ public class PaymentDao {
             stmt.setString(3, payment.getCurrency());
             stmt.setString(4, payment.getDetail());
             stmt.setInt(5, account.getId());
+            stmt.setInt(6, counterAccount.getId());
             if (stmt.executeUpdate() == 1) {
                 try (ResultSet rs = stmt.getGeneratedKeys()) {
                     if(rs.next()) {

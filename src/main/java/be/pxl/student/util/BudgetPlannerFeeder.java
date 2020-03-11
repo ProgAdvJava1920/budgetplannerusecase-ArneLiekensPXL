@@ -1,6 +1,8 @@
 package be.pxl.student.util;
 
 import com.github.javafaker.Faker;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -19,15 +21,30 @@ import java.util.concurrent.TimeUnit;
 public class BudgetPlannerFeeder {
 
 	Faker faker = new Faker();
-
-	String myAccountName = "Jos";
-	String myIBANNumber = "BE69771770897312";
+	private static Logger logger;
+	List<String> accounts;
+	List<String> IBANNumbers;
 
 	public static void main(String[] args) throws IOException {
+		logger = LogManager.getLogger();
 		BudgetPlannerFeeder feeder = new BudgetPlannerFeeder();
+		feeder.addData();
 		String[] dataLines = feeder.generateLines(100);
 		feeder.printLines(dataLines);
 		feeder.saveFile("src/main/resources/account_payments.csv", dataLines);
+	}
+
+	private void addData() {
+		accounts = new ArrayList<>();
+		IBANNumbers = new ArrayList<>();
+		accounts.add("Jos");
+		accounts.add("Jef");
+		accounts.add("Jan");
+		accounts.add("Jak");
+
+		for (int i = 0; i < 4; i++) {
+			IBANNumbers.add(faker.finance().iban("BE"));
+		}
 	}
 
 	private void saveFile(String csvFile, String[] dataLines) throws IOException {
@@ -50,9 +67,17 @@ public class BudgetPlannerFeeder {
 		addHeaderLine(data);
 		for (int i = 0; i < total; i++) {
 			StringBuffer buffer = new StringBuffer();
-			buffer.append(myAccountName).append(","); // Account name
-			buffer.append(myIBANNumber).append(","); // Account IBAN
-			buffer.append(faker.finance().iban("BE")).append(","); // Account IBAN
+			Random random = new Random();
+			int index = random.nextInt(4);
+			logger.debug(index);
+			buffer.append(accounts.get(index)).append(","); // Account name
+			buffer.append(IBANNumbers.get(index)).append(","); // Account IBAN
+			int indexCounter = random.nextInt(4);
+			while (index == indexCounter) {
+				indexCounter = random.nextInt(4);
+			}
+			logger.debug(indexCounter);
+			buffer.append(IBANNumbers.get(indexCounter)).append(","); // Account IBAN
 			buffer.append(faker.date()
 					.past(new Random().nextInt(30) + 1, TimeUnit.DAYS))
 					.append(","); // Transaction date between now and 30 days ago

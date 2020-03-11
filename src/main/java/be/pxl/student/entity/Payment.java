@@ -11,6 +11,7 @@ public class Payment {
     private String currency;
     private String detail;
     private int id;
+    private String counterAccount;
 
     public Payment(LocalDateTime date, float amount, String currency, String detail) {
         this.date = date;
@@ -57,6 +58,14 @@ public class Payment {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getCounterAccount() {
+        return counterAccount;
+    }
+
+    public void setCounterAccount(String counterAccount) {
+        this.counterAccount = counterAccount;
     }
 
     @Override

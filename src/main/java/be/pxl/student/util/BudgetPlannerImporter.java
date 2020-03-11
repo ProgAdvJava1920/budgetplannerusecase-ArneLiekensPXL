@@ -65,6 +65,7 @@ public class BudgetPlannerImporter {
 
     protected Payment createPayment(String[] seperatedLine) {
         logger.debug("Creating new Payment");
+        String counterAccount = seperatedLine[2];
         String dateString = seperatedLine[3];
         float ammount = Float.parseFloat(seperatedLine[4]);
         String currency = seperatedLine[5];
@@ -76,6 +77,7 @@ public class BudgetPlannerImporter {
         LocalDateTime date = LocalDateTime.of(Integer.parseInt(dateArray[5]), MonthShort.valueOf(dateArray[1].toUpperCase()).getValue(), Integer.parseInt(dateArray[2]), Integer.parseInt(time[0]), Integer.parseInt(time[1]), Integer.parseInt(time[2]));
 
         Payment payment = new Payment(date, ammount, currency, details);
+        payment.setCounterAccount(counterAccount);
         logger.debug("New Payment created: " + payment.toString());
         return payment;
     }
