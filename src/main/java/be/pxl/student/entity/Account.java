@@ -47,7 +47,23 @@ public class Account {
     }
 
     public void addCounterPayment(Payment payment) {
-        this.counterPayments.add(payment);
+        float amount = payment.getAmount();
+        if(amount < 0) {
+            amount = Math.abs(amount);
+        } else {
+            amount -= amount;
+            amount -= amount;
+        }
+        Payment counterPayment = new Payment(payment.getDate(), amount, payment.getCurrency(), payment.getDetail());
+        counterPayment.setCounterAccount(payment.getCounterAccount());
+        counterPayment.setCounterAccountId(payment.getCounterAccountId());
+        payment.setAccountId(payment.getAccountId());
+        payment.setId(payment.getId());
+        this.counterPayments.add(counterPayment);
+    }
+
+    public List<Payment> getCounterPayments() {
+        return counterPayments;
     }
 
     public void setId(int id) {

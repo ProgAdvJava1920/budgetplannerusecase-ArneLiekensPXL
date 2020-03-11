@@ -18,25 +18,27 @@ public class BudgetPlannerSeeder {
             BudgetPlannerImporter budgetPlannerImporter = new BudgetPlannerImporter();
 
             accounts = budgetPlannerImporter.importData(Path.of("src/main/resources/account_payments.csv"));
+            AccountDao accountDao = new AccountDao("jdbc:mysql://localhost:3306/budgetplanner?useSSL=false", "root", "admin");
+            PaymentDao paymentDao = new PaymentDao("jdbc:mysql://localhost:3306/budgetplanner?useSSL=false", "root", "admin");
+            LogManager.getLogger().debug(accounts.size());
+            for (Account account : accounts) {
+                account = accountDao.createAccount(account);
+            }
+            for (Account account: accounts) {
+                for (Payment payment:account.getPayments()) {
+                    try {
+                        Account counterAccount = accounts.stream().filter(r -> r.getIBAN().equals(payment.getCounterAccount())).findFirst().get();
+                        LogManager.getLogger().debug(counterAccount);
+                        paymentDao.createPayment(payment, account, counterAccount);
+                    } catch (NoSuchElementException e) {
+                        System.out.println("CounterAccount does not exist");
+                    }
+                }
+            }
         } catch (Exception e) {
             LogManager.getLogger().error(e);
         }
 
-        AccountDao accountDao = new AccountDao("jdbc:mysql://localhost:3306/budgetplanner?useSSL=false", "root", "admin");
-        PaymentDao paymentDao = new PaymentDao("jdbc:mysql://localhost:3306/budgetplanner?useSSL=false", "root", "admin");
-        for (Account account : accounts) {
-            account = accountDao.createAccount(account);
-        }
-        for (Account account: accounts) {
-            for (Payment payment:account.getPayments()) {
-                try {
-                    Account counterAccount = accounts.stream().filter(r -> r.getIBAN().equals(payment.getCounterAccount())).findFirst().get();
-                    LogManager.getLogger().debug(counterAccount);
-                    paymentDao.createPayment(payment, account, counterAccount);
-                } catch (NoSuchElementException e) {
-                    System.out.println("CounterAccount does not exist");
-                }
-            }
-        }
+
     }
 }

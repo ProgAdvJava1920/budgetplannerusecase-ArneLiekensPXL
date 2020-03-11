@@ -3,16 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7ee36e21-b19a-4702-9194-8329b5969f62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/output.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/dao/AccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/dao/PaymentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/dao/PaymentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlannerSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlannerSeeder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/account_payments.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/account_payments.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/account_payments.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account_payments.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/BudgetPlanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/BudgetPlanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Payment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/util/BudgetPlannerFeeder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/util/BudgetPlannerFeeder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/util/BudgetPlannerImporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/util/BudgetPlannerImporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Account.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +140,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BudgetPlannerSeeder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.pxl.student.BudgetPlannerSeeder" />
+      <module name="BudgetPlanner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.pxl.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BudgetPlannerImporterTest.importDataCreates2AccountsWhenNeeded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BudgetPlanner" />
       <extension name="coverage">
@@ -177,6 +188,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BudgetPlanner" />
+        <item itemvalue="Application.BudgetPlannerSeeder" />
         <item itemvalue="Application.BudgetPlannerFeeder" />
         <item itemvalue="JUnit.BudgetPlannerImporterTest.importDataCreatesAccountListWithAccounts" />
         <item itemvalue="JUnit.BudgetPlannerImporterTest.importDataCreates2AccountsWhenNeeded" />
@@ -223,7 +235,7 @@
       <workItem from="1583330807476" duration="3837000" />
       <workItem from="1583409450502" duration="271000" />
       <workItem from="1583833776407" duration="1921000" />
-      <workItem from="1583929843883" duration="4753000" />
+      <workItem from="1583929843883" duration="6522000" />
     </task>
     <task id="LOCAL-00001" summary="AccountDao working">
       <created>1583334522227</created>
@@ -253,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583933177868</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Reads data from Database and puts it into a list">
+      <created>1583934755046</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583934755046</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +283,8 @@
     <MESSAGE value="PaymentDAO added, todo testing" />
     <MESSAGE value="PaymentDAO working" />
     <MESSAGE value="Also seeds counterAccountId; added class BudgetPlannerSeeder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Also seeds counterAccountId; added class BudgetPlannerSeeder" />
+    <MESSAGE value="Reads data from Database and puts it into a list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reads data from Database and puts it into a list" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#New_Docker_Connection" timestamp="1583328995096">
@@ -275,14 +295,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="418" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583331269056" />
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1583934005521">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1583936129959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583934005521" />
-    <state x="270" y="11" key="CommitChangelistDialog2" timestamp="1583933174887">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583936129959" />
+    <state x="270" y="11" key="CommitChangelistDialog2" timestamp="1583934752052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583933174887" />
+    <state x="270" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583934752052" />
     <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1583334184350">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -292,30 +312,46 @@
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583331549412" />
     <state x="686" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583409719408" />
-    <state width="1493" height="147" key="GridCell.Tab.0.bottom" timestamp="1583934716716">
+    <state width="1493" height="127" key="GridCell.Tab.0.bottom" timestamp="1583936377696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583934716716" />
+    <state width="1493" height="127" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583936377696" />
     <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
-    <state width="1493" height="147" key="GridCell.Tab.0.center" timestamp="1583934716715">
+    <state width="1493" height="127" key="GridCell.Tab.0.center" timestamp="1583936377696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583934716715" />
+    <state width="1493" height="127" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583936377696" />
     <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
-    <state width="1493" height="147" key="GridCell.Tab.0.left" timestamp="1583934716715">
+    <state width="1493" height="127" key="GridCell.Tab.0.left" timestamp="1583936377695">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583934716715" />
+    <state width="1493" height="127" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583936377695" />
     <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088261" />
-    <state width="1493" height="147" key="GridCell.Tab.0.right" timestamp="1583934716715">
+    <state width="1493" height="127" key="GridCell.Tab.0.right" timestamp="1583936377696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583934716715" />
+    <state width="1493" height="127" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583936377696" />
     <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1583933181308">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583935428453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583933181308" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583935428453" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1583935428453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583935428453" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1583935428453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583935428453" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1583935428453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583935428453" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1583934758692">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583934758692" />
     <state x="485" y="63" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583334030458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
