@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7ee36e21-b19a-4702-9194-8329b5969f62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/output.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/dao/AccountDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/dao/PaymentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/dao/PaymentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/BudgetPlanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/BudgetPlanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Payment.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="budgetplanner: schema" type="ebfa3cd1:MariaImplModel$Schema" />
         <item name="account: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - budgetplanner@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="budgetplanner: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="label: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -182,7 +193,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:MariaDB - budgetplanner@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3e1b675c" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5ef28a4a" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -208,7 +219,8 @@
       <workItem from="1583325311379" duration="4565000" />
       <workItem from="1583330807476" duration="3837000" />
       <workItem from="1583409450502" duration="271000" />
-      <workItem from="1583833776407" duration="1275000" />
+      <workItem from="1583833776407" duration="1921000" />
+      <workItem from="1583929843883" duration="1053000" />
     </task>
     <task id="LOCAL-00001" summary="AccountDao working">
       <created>1583334522227</created>
@@ -217,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583334522227</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PaymentDAO added, todo testing">
+      <created>1583835511976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583835511976</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AccountDao working" />
-    <option name="LAST_COMMIT_MESSAGE" value="AccountDao working" />
+    <MESSAGE value="PaymentDAO added, todo testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="PaymentDAO added, todo testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#New_Docker_Connection" timestamp="1583328995096">
@@ -240,10 +260,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583834848279" />
-    <state x="270" y="11" key="CommitChangelistDialog2" timestamp="1583334519006">
+    <state x="270" y="11" key="CommitChangelistDialog2" timestamp="1583835509473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583334519006" />
+    <state x="270" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583835509473" />
     <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1583334184350">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -253,38 +273,38 @@
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583331549412" />
     <state x="686" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583409719408" />
-    <state width="1493" height="147" key="GridCell.Tab.0.bottom" timestamp="1583353088262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583334227844" />
-    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
-    <state width="1493" height="147" key="GridCell.Tab.0.center" timestamp="1583353088262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583334227844" />
-    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
-    <state width="1493" height="147" key="GridCell.Tab.0.left" timestamp="1583353088261">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583334227844" />
-    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088261" />
-    <state width="1493" height="147" key="GridCell.Tab.0.right" timestamp="1583353088262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583334227844" />
-    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1583334529650">
+    <state width="1493" height="147" key="GridCell.Tab.0.bottom" timestamp="1583930914872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583334529650" />
+    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583930914872" />
+    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
+    <state width="1493" height="147" key="GridCell.Tab.0.center" timestamp="1583930914872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583930914872" />
+    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
+    <state width="1493" height="147" key="GridCell.Tab.0.left" timestamp="1583930914871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583930914871" />
+    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088261" />
+    <state width="1493" height="147" key="GridCell.Tab.0.right" timestamp="1583930914872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583930914872" />
+    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1583835550182">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583835550182" />
     <state x="485" y="63" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583334030458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="63" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1583334030458" />
-    <state x="596" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1583409709538">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1583929898307">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582716060766" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583929898307" />
     <state x="596" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583409709538" />
     <state x="540" y="145" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582721531791">
       <screen x="0" y="0" width="1536" height="824" />

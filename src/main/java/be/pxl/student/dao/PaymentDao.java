@@ -10,7 +10,7 @@ public class PaymentDao {
     private static final String SELECT_BY_ID = "SELECT * FROM payment WHERE id = ?";
     private static final String SELECT_BY_ACCOUNT_ID = "SELECT * FROM payment WHERE accountId = ?";
     private static final String UPDATE = "UPDATE payment SET date=?, amount=?, currency=?, detail=?, accountId=? WHERE id = ?";
-    private static final String INSERT = "INSERT INTO payment (date, amount, currency, detail, accountId) VALUES (?, ?, ?, ?, ?)";
+    private static final String INSERT = "INSERT INTO payment (date, amount, currency, detail, accountId, counterAccountId) VALUES (?, ?, ?, ?, ?, 1)";
     private static final String DELETE = "DELETE FROM payment WHERE id = ?";
     private String url;
     private String user;
@@ -73,7 +73,7 @@ public class PaymentDao {
 
     public boolean deletePayment(int id) {
         try (Connection connection = getConnection(); PreparedStatement stmt = connection.prepareStatement(DELETE)) {
-            stmt.setLong(4, id);
+            stmt.setLong(1, id);
             return stmt.execute();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -100,8 +100,9 @@ public class PaymentDao {
 
     private Payment mapPayment(ResultSet rs) throws SQLException {
 
-        rs.getDate("date");
-        Payment payment = new Payment(LocalDateTime.of(rs.getDate("date").getYear(), rs.getDate("date").getMonth(), rs.getDate("date").getDay(), rs.getDate("date").getHours(), rs.getDate("date").getMinutes()) , rs.getFloat("amount"), rs.getString("currency"), rs.getString("detail"), rs.getInt("id"));
+        Payment payment = new Payment(rs.getTimestamp("date").toLocalDateTime(), rs.getFloat("amount"), rs.getString("currency"), rs.getString("detail"));
+        payment.setId(rs.getInt("id"));
+
 
         return payment;
     }

@@ -1,7 +1,9 @@
 package be.pxl.student;
 
 import be.pxl.student.dao.AccountDao;
+import be.pxl.student.dao.PaymentDao;
 import be.pxl.student.entity.Account;
+import be.pxl.student.entity.Payment;
 import be.pxl.student.util.BudgetPlannerImporter;
 import org.apache.logging.log4j.LogManager;
 
@@ -14,13 +16,21 @@ public class BudgetPlanner {
         try {
             BudgetPlannerImporter budgetPlannerImporter = new BudgetPlannerImporter();
 
-            accounts = budgetPlannerImporter.importData(Path.of("src/main/resources/two_accounts.csv"));
+            accounts = budgetPlannerImporter.importData(Path.of("src/main/resources/account_payments.csv"));
         } catch (Exception e) {
             LogManager.getLogger().error(e);
         }
 
         AccountDao accountDao = new AccountDao("jdbc:mysql://localhost:3306/budgetplanner?useSSL=false", "root", "admin");
-        System.out.println(accountDao.readAccount(1));
+        PaymentDao paymentDao = new PaymentDao("jdbc:mysql://localhost:3306/budgetplanner?useSSL=false", "root", "admin");
+        
+        for (Account account: accounts) {
+            account = accountDao.createAccount(account);
+            for (Payment payment:account.getPayments()) {
+                paymentDao.createPayment(payment, account);
+            }
+        }
+        System.out.println(paymentDao.readPayment(1));
 
     }
 

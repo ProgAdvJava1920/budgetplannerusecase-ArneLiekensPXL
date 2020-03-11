@@ -12,12 +12,11 @@ public class Payment {
     private String detail;
     private int id;
 
-    public Payment(LocalDateTime date, float amount, String currency, String detail, int id) {
+    public Payment(LocalDateTime date, float amount, String currency, String detail) {
         this.date = date;
         this.amount = amount;
         this.currency = currency;
         this.detail = detail;
-        this.id = id;
     }
 
     public LocalDateTime getDate() {

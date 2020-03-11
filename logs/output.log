@@ -908,3 +908,887 @@
 2020-03-04 15:57:47,557 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
 2020-03-04 15:57:47,558 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
 2020-03-04 15:57:47,558 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-03-10 11:21:56,046 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-03-10 11:21:56,100 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:21:56,101 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:21:56,113 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-03-10 11:21:56,114 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-03-10 11:21:56,115 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:21:56,115 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:21:56,115 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-03-10 11:21:56,115 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
+2020-03-10 11:21:56,122 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-03-10 11:23:09,230 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-03-10 11:23:09,235 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:23:09,235 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:23:09,245 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-03-10 11:23:09,246 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-03-10 11:23:09,246 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:23:09,247 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:23:09,247 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-03-10 11:23:09,247 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
+2020-03-10 11:23:09,247 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-03-10 11:23:41,190 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-03-10 11:23:41,196 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:23:41,197 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:23:41,208 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-03-10 11:23:41,209 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-03-10 11:23:41,210 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:23:41,210 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:23:41,210 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-03-10 11:23:41,210 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
+2020-03-10 11:23:41,211 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-03-10 11:24:54,589 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-03-10 11:24:54,594 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:24:54,594 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:24:54,603 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-03-10 11:24:54,603 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-03-10 11:24:54,604 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:24:54,604 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:24:54,604 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-03-10 11:24:54,604 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
+2020-03-10 11:24:54,604 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-03-10 11:27:30,019 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-03-10 11:27:30,023 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:27:30,024 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:27:30,036 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-03-10 11:27:30,037 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-03-10 11:27:30,037 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:27:30,038 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:27:30,038 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-03-10 11:27:30,040 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
+2020-03-10 11:27:30,040 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-03-10 11:28:06,866 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-03-10 11:28:06,870 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:28:06,871 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:28:06,879 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-03-10 11:28:06,880 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-03-10 11:28:06,880 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:28:06,880 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:28:06,881 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-03-10 11:28:06,881 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
+2020-03-10 11:28:06,881 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-03-10 11:28:26,086 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-03-10 11:28:26,090 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:28:26,090 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:28:26,100 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-03-10 11:28:26,101 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-03-10 11:28:26,101 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-10 11:28:26,101 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-10 11:28:26,102 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-03-10 11:28:26,102 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
+2020-03-10 11:28:26,102 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-03-11 13:42:05,749 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-03-11 13:42:05,817 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-11 13:42:05,817 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:42:05,888 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-03-11 13:42:05,890 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-03-11 13:42:05,890 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-11 13:42:05,890 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:42:05,891 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-03-11 13:42:05,891 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE96771770897312', name='Joske', payments=[{date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}]}
+2020-03-11 13:42:05,891 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-03-11 13:45:58,832 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-03-11 13:45:58,890 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-11 13:45:58,890 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,906 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-03-11 13:45:58,908 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-03-11 13:45:58,909 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,909 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,910 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-03-11 13:45:58,910 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,910 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,910 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,911 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T18:30:11, amount=-3012.58, currency='EUR', detail='Laudantium quo illo quia.'}
+2020-03-11 13:45:58,911 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,911 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,911 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,912 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-01-29T10:02:52, amount=-2136.6, currency='EUR', detail='Et reiciendis repellat nam occaecati quisquam.'}
+2020-03-11 13:45:58,924 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,924 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,924 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,924 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T22:26:27, amount=-1584.97, currency='EUR', detail='Fugiat culpa beatae autem quibusdam error.'}
+2020-03-11 13:45:58,924 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,925 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,925 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,925 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T02:25:05, amount=3490.67, currency='EUR', detail='A vel natus.'}
+2020-03-11 13:45:58,925 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,926 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,926 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,926 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-11T18:20:49, amount=-111.72, currency='EUR', detail='Aut nihil id consequuntur et vel.'}
+2020-03-11 13:45:58,926 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,926 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,927 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,927 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-08T21:20:11, amount=-3416.48, currency='EUR', detail='Quos iste dolorem quo.'}
+2020-03-11 13:45:58,927 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,927 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,927 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,928 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-01T21:21:24, amount=-2116.12, currency='EUR', detail='Quis quia sunt.'}
+2020-03-11 13:45:58,928 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,928 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,928 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,928 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-06T04:43:13, amount=1253.4, currency='EUR', detail='Eligendi quia incidunt.'}
+2020-03-11 13:45:58,929 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,929 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,929 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,929 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T11:55:08, amount=3320.09, currency='EUR', detail='Occaecati dignissimos veritatis aut asperiores.'}
+2020-03-11 13:45:58,929 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,930 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,930 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,930 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-06T22:30:18, amount=1149.82, currency='EUR', detail='Ut nulla tempora perferendis sunt quo quas.'}
+2020-03-11 13:45:58,930 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,930 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,931 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,931 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-13T00:29:10, amount=4958.5, currency='EUR', detail='Sed maiores et.'}
+2020-03-11 13:45:58,931 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,931 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,931 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,932 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T13:45:44, amount=-3898.83, currency='EUR', detail='Consequatur facere ut omnis expedita.'}
+2020-03-11 13:45:58,932 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,932 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,932 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,933 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-16T14:30:45, amount=2321.51, currency='EUR', detail='Non ipsa odio assumenda voluptatum.'}
+2020-03-11 13:45:58,933 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,933 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,933 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,933 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-06T07:13:41, amount=1267.64, currency='EUR', detail='Et aut ut impedit blanditiis reiciendis.'}
+2020-03-11 13:45:58,934 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,934 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,934 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,934 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T14:24:12, amount=28.75, currency='EUR', detail='Cupiditate ex cupiditate cumque qui eum sed.'}
+2020-03-11 13:45:58,934 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,934 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,934 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,935 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-10T05:14:09, amount=-495.28, currency='EUR', detail='Facere ut optio.'}
+2020-03-11 13:45:58,935 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,935 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,935 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,935 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-03T18:41:15, amount=-628.42, currency='EUR', detail='Quibusdam itaque sed dolore vitae nostrum.'}
+2020-03-11 13:45:58,935 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,936 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,936 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,936 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T02:51:49, amount=-2850.35, currency='EUR', detail='Sed molestiae accusantium saepe quia veniam.'}
+2020-03-11 13:45:58,936 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,936 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,936 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,936 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T18:37:28, amount=-3667.3, currency='EUR', detail='Ea placeat dolores voluptatem omnis.'}
+2020-03-11 13:45:58,937 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,937 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,937 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,937 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T00:16:33, amount=-2946.99, currency='EUR', detail='Sed iusto est dicta nesciunt doloribus est omnis.'}
+2020-03-11 13:45:58,937 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,937 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,937 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,938 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-18T11:43:48, amount=3032.09, currency='EUR', detail='Odio laudantium porro est voluptas aut culpa ut.'}
+2020-03-11 13:45:58,938 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,938 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,938 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,938 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T09:51:09, amount=-1753.43, currency='EUR', detail='Et excepturi ex quia velit quisquam enim explicabo.'}
+2020-03-11 13:45:58,939 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,939 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,939 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,939 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T18:23:44, amount=-1553.65, currency='EUR', detail='Consequatur tempore non.'}
+2020-03-11 13:45:58,939 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,939 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,940 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,940 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T18:20:45, amount=-1071.33, currency='EUR', detail='Ut at voluptatem reiciendis iusto excepturi vel.'}
+2020-03-11 13:45:58,940 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,940 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,941 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,941 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T07:43:57, amount=-2666.0, currency='EUR', detail='Dolorem velit ut et ipsa.'}
+2020-03-11 13:45:58,941 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,941 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,941 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,942 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-08T05:10:19, amount=2977.06, currency='EUR', detail='Non perferendis dolore voluptatibus dicta et omnis velit.'}
+2020-03-11 13:45:58,942 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,942 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,942 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,943 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T07:00:06, amount=1953.25, currency='EUR', detail='Modi incidunt inventore.'}
+2020-03-11 13:45:58,943 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,943 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,944 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,944 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T15:37:04, amount=-3656.94, currency='EUR', detail='Architecto consequatur debitis nesciunt et.'}
+2020-03-11 13:45:58,944 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,945 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,945 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,945 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-01T16:25:39, amount=-1686.49, currency='EUR', detail='Distinctio reprehenderit eaque fugiat aut non voluptas aliquid.'}
+2020-03-11 13:45:58,945 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,945 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,946 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,946 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T13:24:46, amount=4214.27, currency='EUR', detail='Vel repellat excepturi voluptatum.'}
+2020-03-11 13:45:58,946 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,947 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,947 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,948 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T06:54:40, amount=-2436.61, currency='EUR', detail='Et voluptatem repellendus necessitatibus inventore recusandae optio.'}
+2020-03-11 13:45:58,948 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,948 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,948 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,949 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-16T19:53:57, amount=3560.95, currency='EUR', detail='Voluptatem sint quaerat est molestiae distinctio molestiae.'}
+2020-03-11 13:45:58,949 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,950 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,950 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,950 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T17:59:12, amount=3877.0, currency='EUR', detail='Magnam ut aliquid quas.'}
+2020-03-11 13:45:58,950 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,950 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,950 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,951 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-10T02:08:45, amount=2597.01, currency='EUR', detail='Non officia ut dolorum veritatis ab.'}
+2020-03-11 13:45:58,951 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,951 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,951 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,951 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T14:58:05, amount=3615.6, currency='EUR', detail='Sed tempora corrupti cumque architecto harum alias nesciunt.'}
+2020-03-11 13:45:58,951 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,951 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,952 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,952 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-02T09:26:10, amount=4071.85, currency='EUR', detail='Eius vel totam numquam.'}
+2020-03-11 13:45:58,952 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,952 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,952 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,952 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-03T02:48:14, amount=1731.47, currency='EUR', detail='Ea fugit rerum aspernatur quidem reprehenderit.'}
+2020-03-11 13:45:58,952 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,953 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,953 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,953 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-02T17:13:41, amount=-3624.02, currency='EUR', detail='Vitae nulla voluptatem numquam beatae et error.'}
+2020-03-11 13:45:58,953 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,954 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,954 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,954 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T23:22:36, amount=-3990.21, currency='EUR', detail='Nostrum commodi hic consequatur quas cupiditate.'}
+2020-03-11 13:45:58,954 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,954 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,954 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,955 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T21:25:24, amount=-1360.59, currency='EUR', detail='Non aperiam occaecati.'}
+2020-03-11 13:45:58,955 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,955 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,955 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,955 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T00:16:49, amount=1151.14, currency='EUR', detail='Delectus recusandae ipsam qui.'}
+2020-03-11 13:45:58,955 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,955 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,956 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,956 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T17:01:52, amount=3964.88, currency='EUR', detail='Numquam ab cumque consequuntur eius exercitationem neque.'}
+2020-03-11 13:45:58,956 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,956 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,956 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,957 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-11T16:17:19, amount=-117.41, currency='EUR', detail='Dolorem a et voluptas laboriosam quia voluptatem laboriosam.'}
+2020-03-11 13:45:58,957 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,957 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,958 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,958 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-15T11:16:22, amount=-4362.45, currency='EUR', detail='Nemo ut minus.'}
+2020-03-11 13:45:58,958 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,958 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,958 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,958 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T14:35:35, amount=-3611.3, currency='EUR', detail='Vel minus est iure minus.'}
+2020-03-11 13:45:58,958 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,958 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,958 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,959 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T02:46:22, amount=1678.94, currency='EUR', detail='Voluptatem et quaerat quis explicabo sapiente.'}
+2020-03-11 13:45:58,959 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,959 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,959 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,959 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-15T05:10:14, amount=1189.12, currency='EUR', detail='Eum quibusdam tenetur nisi nobis.'}
+2020-03-11 13:45:58,959 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,959 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,959 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,960 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-01-31T21:20:11, amount=4165.79, currency='EUR', detail='Non soluta corrupti dolorem cumque non.'}
+2020-03-11 13:45:58,960 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,960 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,960 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,961 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T19:37:51, amount=-1418.93, currency='EUR', detail='Iste quae earum optio tenetur.'}
+2020-03-11 13:45:58,961 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,961 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,961 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,961 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T09:14:28, amount=-4663.81, currency='EUR', detail='Quis incidunt voluptate dolor ullam ab non aut.'}
+2020-03-11 13:45:58,961 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,961 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,961 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,961 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T06:20:06, amount=-1236.06, currency='EUR', detail='Ipsam vitae at.'}
+2020-03-11 13:45:58,962 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,962 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,962 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,962 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T11:50:06, amount=-859.76, currency='EUR', detail='Quia harum provident officiis omnis officiis facilis.'}
+2020-03-11 13:45:58,962 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,962 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,962 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,963 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T00:16, amount=1846.05, currency='EUR', detail='Sit quasi voluptates.'}
+2020-03-11 13:45:58,963 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,963 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,964 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,964 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T16:37:23, amount=2775.15, currency='EUR', detail='Facilis a rem magnam dolorum velit aut cupiditate.'}
+2020-03-11 13:45:58,964 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,964 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,964 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,964 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T20:19, amount=-3687.5, currency='EUR', detail='Ratione est distinctio.'}
+2020-03-11 13:45:58,964 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,964 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,965 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,966 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-11T17:29:47, amount=1983.89, currency='EUR', detail='Eligendi aspernatur pariatur magnam autem debitis.'}
+2020-03-11 13:45:58,966 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,967 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,967 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,967 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-15T05:01:02, amount=-1209.75, currency='EUR', detail='Non ut necessitatibus magnam ex qui.'}
+2020-03-11 13:45:58,967 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,967 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,967 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,968 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T00:47:55, amount=-1813.09, currency='EUR', detail='Est et quia ipsum quo temporibus.'}
+2020-03-11 13:45:58,968 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,968 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,969 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,969 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T19:59:28, amount=-4493.01, currency='EUR', detail='Omnis totam mollitia.'}
+2020-03-11 13:45:58,969 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,969 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,970 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,971 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-13T02:39:06, amount=4596.44, currency='EUR', detail='Sunt saepe vitae sit exercitationem.'}
+2020-03-11 13:45:58,971 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,971 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,972 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,972 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-14T14:18:52, amount=-1588.08, currency='EUR', detail='Et distinctio quaerat explicabo omnis ea et.'}
+2020-03-11 13:45:58,972 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,972 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,972 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,973 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T20:28:52, amount=-2902.44, currency='EUR', detail='Quos perferendis ea.'}
+2020-03-11 13:45:58,973 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,973 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,974 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,974 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-14T19:33:17, amount=1843.09, currency='EUR', detail='Culpa quia sit tempora ut sapiente ut.'}
+2020-03-11 13:45:58,974 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,974 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,975 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,975 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T14:39:06, amount=-3229.79, currency='EUR', detail='Illum et voluptas quaerat.'}
+2020-03-11 13:45:58,975 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,975 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,975 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,975 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T06:49:12, amount=-777.58, currency='EUR', detail='Odit id perferendis ipsa dolorum quidem asperiores animi.'}
+2020-03-11 13:45:58,975 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,975 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,975 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,976 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T00:00:49, amount=2142.16, currency='EUR', detail='Laudantium expedita asperiores numquam molestiae ipsa similique.'}
+2020-03-11 13:45:58,976 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,976 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,977 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,977 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-05T05:42:21, amount=-1175.43, currency='EUR', detail='Tenetur dicta et quibusdam reprehenderit velit qui tenetur.'}
+2020-03-11 13:45:58,977 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,977 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,977 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,977 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-18T19:10:40, amount=1699.94, currency='EUR', detail='Non et molestiae.'}
+2020-03-11 13:45:58,978 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,978 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,978 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,978 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T08:01, amount=-300.01, currency='EUR', detail='Ratione consequatur nisi deserunt optio.'}
+2020-03-11 13:45:58,978 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,978 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,978 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,979 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-14T13:52:13, amount=-3338.4, currency='EUR', detail='Eos dolorem et aut.'}
+2020-03-11 13:45:58,979 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,979 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,979 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,979 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-14T05:26:44, amount=2527.11, currency='EUR', detail='Eveniet natus optio et nisi suscipit autem molestiae.'}
+2020-03-11 13:45:58,979 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,979 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,979 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,980 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-07T23:23:57, amount=3703.59, currency='EUR', detail='Ducimus alias est aut.'}
+2020-03-11 13:45:58,980 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,980 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,980 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,980 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T19:16:04, amount=-3656.82, currency='EUR', detail='Molestiae vitae quas repellat in.'}
+2020-03-11 13:45:58,980 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,980 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,980 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,981 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T03:44:06, amount=4852.33, currency='EUR', detail='Reiciendis molestias ab alias eaque est odio.'}
+2020-03-11 13:45:58,981 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,981 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,981 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,982 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T03:37:16, amount=-3277.48, currency='EUR', detail='Fugit id sapiente tempora ea inventore est.'}
+2020-03-11 13:45:58,982 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,982 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,983 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,983 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-16T18:33:08, amount=3254.66, currency='EUR', detail='Voluptate perferendis dolore et vitae in alias assumenda.'}
+2020-03-11 13:45:58,983 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,984 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,984 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,984 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-16T02:56:06, amount=-2879.21, currency='EUR', detail='Ut aliquid sequi culpa aut atque.'}
+2020-03-11 13:45:58,984 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,984 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,985 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,985 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-01-29T02:54:35, amount=4417.42, currency='EUR', detail='Veniam corrupti magni dolorum iusto autem id aperiam.'}
+2020-03-11 13:45:58,985 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,985 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,985 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,985 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T12:22:21, amount=2499.12, currency='EUR', detail='Earum voluptas ipsum autem debitis incidunt.'}
+2020-03-11 13:45:58,986 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,986 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,986 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,986 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-13T10:13:18, amount=2744.24, currency='EUR', detail='Aut optio nemo quidem autem culpa odio.'}
+2020-03-11 13:45:58,986 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,987 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,987 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,987 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T19:58:56, amount=-1924.84, currency='EUR', detail='Voluptas dicta eaque.'}
+2020-03-11 13:45:58,987 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,987 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,987 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,988 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T20:32:33, amount=3726.25, currency='EUR', detail='Atque laboriosam et ex.'}
+2020-03-11 13:45:58,988 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,988 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,988 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,988 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-10T04:00, amount=4015.99, currency='EUR', detail='Non est et quisquam illum atque nihil.'}
+2020-03-11 13:45:58,989 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,989 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,989 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,989 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T20:07:25, amount=4072.9, currency='EUR', detail='Ex harum nihil harum perferendis.'}
+2020-03-11 13:45:58,990 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,990 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,990 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,990 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-01-30T15:23:50, amount=-3436.31, currency='EUR', detail='Ex distinctio ut facilis.'}
+2020-03-11 13:45:58,990 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,990 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,990 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,991 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-13T22:29:42, amount=1237.65, currency='EUR', detail='Nihil nihil id nam ipsam.'}
+2020-03-11 13:45:58,991 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,991 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T07:52:17, amount=-1507.91, currency='EUR', detail='Dolor amet labore voluptates aut quidem distinctio.'}
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-03T17:08:41, amount=-1947.64, currency='EUR', detail='Est ducimus repellendus aut excepturi aspernatur natus.'}
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-11T22:05:27, amount=3705.52, currency='EUR', detail='Nam fuga porro.'}
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,992 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,993 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,993 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T00:38:38, amount=-1926.95, currency='EUR', detail='Culpa iure qui.'}
+2020-03-11 13:45:58,993 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,993 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,993 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,993 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T05:09:10, amount=2857.78, currency='EUR', detail='Consectetur mollitia quidem et nemo aut ipsum.'}
+2020-03-11 13:45:58,993 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,993 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,993 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,994 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T04:27:13, amount=536.02, currency='EUR', detail='Incidunt quae impedit maiores tenetur consequatur.'}
+2020-03-11 13:45:58,994 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,994 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,994 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,994 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T15:24:22, amount=4700.25, currency='EUR', detail='Ratione aliquam aut eos.'}
+2020-03-11 13:45:58,995 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,995 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,995 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,995 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T07:54:22, amount=3932.19, currency='EUR', detail='Dolorum placeat excepturi nihil quam assumenda.'}
+2020-03-11 13:45:58,995 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,995 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,995 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,995 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-07T15:40:12, amount=1704.7, currency='EUR', detail='Quam voluptatem repellat dolor.'}
+2020-03-11 13:45:58,995 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,995 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,995 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,996 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T16:21:45, amount=-1494.65, currency='EUR', detail='Et voluptate quos ea.'}
+2020-03-11 13:45:58,996 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,996 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,996 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,996 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-15T09:14:30, amount=3259.89, currency='EUR', detail='Laboriosam ut velit optio aperiam est.'}
+2020-03-11 13:45:58,996 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,996 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:45:58,996 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:45:58,997 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T03:20:02, amount=2637.89, currency='EUR', detail='Rerum non magnam quia sint et et.'}
+2020-03-11 13:45:58,997 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:45:58,997 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
+2020-03-11 13:48:35,734 DEBUG b.p.s.u.BudgetPlannerImporter [main] Importing Data
+2020-03-11 13:48:35,739 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Account
+2020-03-11 13:48:35,739 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,749 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}
+2020-03-11 13:48:35,750 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Account created: Account{IBAN='BE69771770897312', name='Jos', payments=[{date=2020-02-19T22:11:33, amount=3087.22, currency='EUR', detail='Sint deleniti consectetur impedit quidem.'}]}
+2020-03-11 13:48:35,750 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,750 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,750 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T23:49:54, amount=-4492.37, currency='EUR', detail='Rerum tempore laboriosam pariatur possimus.'}
+2020-03-11 13:48:35,751 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,751 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,751 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,751 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T18:30:11, amount=-3012.58, currency='EUR', detail='Laudantium quo illo quia.'}
+2020-03-11 13:48:35,751 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,751 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,751 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,751 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-01-29T10:02:52, amount=-2136.6, currency='EUR', detail='Et reiciendis repellat nam occaecati quisquam.'}
+2020-03-11 13:48:35,752 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,752 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,752 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,752 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T22:26:27, amount=-1584.97, currency='EUR', detail='Fugiat culpa beatae autem quibusdam error.'}
+2020-03-11 13:48:35,752 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,752 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,752 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,752 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T02:25:05, amount=3490.67, currency='EUR', detail='A vel natus.'}
+2020-03-11 13:48:35,752 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,753 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,753 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,753 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-11T18:20:49, amount=-111.72, currency='EUR', detail='Aut nihil id consequuntur et vel.'}
+2020-03-11 13:48:35,753 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,753 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,753 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,753 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-08T21:20:11, amount=-3416.48, currency='EUR', detail='Quos iste dolorem quo.'}
+2020-03-11 13:48:35,753 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,754 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,754 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,754 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-01T21:21:24, amount=-2116.12, currency='EUR', detail='Quis quia sunt.'}
+2020-03-11 13:48:35,754 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,754 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,754 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,755 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-06T04:43:13, amount=1253.4, currency='EUR', detail='Eligendi quia incidunt.'}
+2020-03-11 13:48:35,755 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,755 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,755 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,755 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T11:55:08, amount=3320.09, currency='EUR', detail='Occaecati dignissimos veritatis aut asperiores.'}
+2020-03-11 13:48:35,755 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,756 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,756 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,756 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-06T22:30:18, amount=1149.82, currency='EUR', detail='Ut nulla tempora perferendis sunt quo quas.'}
+2020-03-11 13:48:35,756 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,756 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,756 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,756 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-13T00:29:10, amount=4958.5, currency='EUR', detail='Sed maiores et.'}
+2020-03-11 13:48:35,756 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,756 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,757 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,757 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T13:45:44, amount=-3898.83, currency='EUR', detail='Consequatur facere ut omnis expedita.'}
+2020-03-11 13:48:35,757 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,757 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,757 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,757 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-16T14:30:45, amount=2321.51, currency='EUR', detail='Non ipsa odio assumenda voluptatum.'}
+2020-03-11 13:48:35,757 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,757 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,757 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,758 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-06T07:13:41, amount=1267.64, currency='EUR', detail='Et aut ut impedit blanditiis reiciendis.'}
+2020-03-11 13:48:35,758 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,758 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,758 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,758 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T14:24:12, amount=28.75, currency='EUR', detail='Cupiditate ex cupiditate cumque qui eum sed.'}
+2020-03-11 13:48:35,758 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,758 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,758 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,758 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-10T05:14:09, amount=-495.28, currency='EUR', detail='Facere ut optio.'}
+2020-03-11 13:48:35,759 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,759 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,759 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,759 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-03T18:41:15, amount=-628.42, currency='EUR', detail='Quibusdam itaque sed dolore vitae nostrum.'}
+2020-03-11 13:48:35,759 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,759 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,759 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,759 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T02:51:49, amount=-2850.35, currency='EUR', detail='Sed molestiae accusantium saepe quia veniam.'}
+2020-03-11 13:48:35,759 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,759 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,760 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,760 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T18:37:28, amount=-3667.3, currency='EUR', detail='Ea placeat dolores voluptatem omnis.'}
+2020-03-11 13:48:35,760 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,760 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,760 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,760 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T00:16:33, amount=-2946.99, currency='EUR', detail='Sed iusto est dicta nesciunt doloribus est omnis.'}
+2020-03-11 13:48:35,760 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,760 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,760 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,760 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-18T11:43:48, amount=3032.09, currency='EUR', detail='Odio laudantium porro est voluptas aut culpa ut.'}
+2020-03-11 13:48:35,761 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,761 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,761 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,761 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T09:51:09, amount=-1753.43, currency='EUR', detail='Et excepturi ex quia velit quisquam enim explicabo.'}
+2020-03-11 13:48:35,761 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,761 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,761 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,761 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T18:23:44, amount=-1553.65, currency='EUR', detail='Consequatur tempore non.'}
+2020-03-11 13:48:35,761 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,761 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,761 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-09T18:20:45, amount=-1071.33, currency='EUR', detail='Ut at voluptatem reiciendis iusto excepturi vel.'}
+2020-03-11 13:48:35,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T07:43:57, amount=-2666.0, currency='EUR', detail='Dolorem velit ut et ipsa.'}
+2020-03-11 13:48:35,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-08T05:10:19, amount=2977.06, currency='EUR', detail='Non perferendis dolore voluptatibus dicta et omnis velit.'}
+2020-03-11 13:48:35,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,762 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,763 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,763 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T07:00:06, amount=1953.25, currency='EUR', detail='Modi incidunt inventore.'}
+2020-03-11 13:48:35,763 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,763 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,763 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,763 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T15:37:04, amount=-3656.94, currency='EUR', detail='Architecto consequatur debitis nesciunt et.'}
+2020-03-11 13:48:35,763 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,763 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,764 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,764 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-01T16:25:39, amount=-1686.49, currency='EUR', detail='Distinctio reprehenderit eaque fugiat aut non voluptas aliquid.'}
+2020-03-11 13:48:35,764 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,764 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,764 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,764 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T13:24:46, amount=4214.27, currency='EUR', detail='Vel repellat excepturi voluptatum.'}
+2020-03-11 13:48:35,764 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,765 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,765 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,765 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T06:54:40, amount=-2436.61, currency='EUR', detail='Et voluptatem repellendus necessitatibus inventore recusandae optio.'}
+2020-03-11 13:48:35,765 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,765 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,765 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,766 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-16T19:53:57, amount=3560.95, currency='EUR', detail='Voluptatem sint quaerat est molestiae distinctio molestiae.'}
+2020-03-11 13:48:35,766 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,766 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,766 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,766 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T17:59:12, amount=3877.0, currency='EUR', detail='Magnam ut aliquid quas.'}
+2020-03-11 13:48:35,766 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,766 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,766 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,767 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-10T02:08:45, amount=2597.01, currency='EUR', detail='Non officia ut dolorum veritatis ab.'}
+2020-03-11 13:48:35,767 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,767 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,767 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,767 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T14:58:05, amount=3615.6, currency='EUR', detail='Sed tempora corrupti cumque architecto harum alias nesciunt.'}
+2020-03-11 13:48:35,767 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,767 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,767 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,767 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-02T09:26:10, amount=4071.85, currency='EUR', detail='Eius vel totam numquam.'}
+2020-03-11 13:48:35,767 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-03T02:48:14, amount=1731.47, currency='EUR', detail='Ea fugit rerum aspernatur quidem reprehenderit.'}
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-02T17:13:41, amount=-3624.02, currency='EUR', detail='Vitae nulla voluptatem numquam beatae et error.'}
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T23:22:36, amount=-3990.21, currency='EUR', detail='Nostrum commodi hic consequatur quas cupiditate.'}
+2020-03-11 13:48:35,768 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,769 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,769 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,769 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T21:25:24, amount=-1360.59, currency='EUR', detail='Non aperiam occaecati.'}
+2020-03-11 13:48:35,769 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,769 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,769 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,769 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T00:16:49, amount=1151.14, currency='EUR', detail='Delectus recusandae ipsam qui.'}
+2020-03-11 13:48:35,769 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,769 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,769 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,769 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T17:01:52, amount=3964.88, currency='EUR', detail='Numquam ab cumque consequuntur eius exercitationem neque.'}
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-11T16:17:19, amount=-117.41, currency='EUR', detail='Dolorem a et voluptas laboriosam quia voluptatem laboriosam.'}
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-15T11:16:22, amount=-4362.45, currency='EUR', detail='Nemo ut minus.'}
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,770 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T14:35:35, amount=-3611.3, currency='EUR', detail='Vel minus est iure minus.'}
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T02:46:22, amount=1678.94, currency='EUR', detail='Voluptatem et quaerat quis explicabo sapiente.'}
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-15T05:10:14, amount=1189.12, currency='EUR', detail='Eum quibusdam tenetur nisi nobis.'}
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,771 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-01-31T21:20:11, amount=4165.79, currency='EUR', detail='Non soluta corrupti dolorem cumque non.'}
+2020-03-11 13:48:35,772 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,772 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,772 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,772 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T19:37:51, amount=-1418.93, currency='EUR', detail='Iste quae earum optio tenetur.'}
+2020-03-11 13:48:35,772 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,772 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,772 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,772 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T09:14:28, amount=-4663.81, currency='EUR', detail='Quis incidunt voluptate dolor ullam ab non aut.'}
+2020-03-11 13:48:35,773 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,773 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,773 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,773 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T06:20:06, amount=-1236.06, currency='EUR', detail='Ipsam vitae at.'}
+2020-03-11 13:48:35,773 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,773 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,773 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,773 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T11:50:06, amount=-859.76, currency='EUR', detail='Quia harum provident officiis omnis officiis facilis.'}
+2020-03-11 13:48:35,773 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,774 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,774 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,774 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T00:16, amount=1846.05, currency='EUR', detail='Sit quasi voluptates.'}
+2020-03-11 13:48:35,774 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,774 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,774 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,775 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T16:37:23, amount=2775.15, currency='EUR', detail='Facilis a rem magnam dolorum velit aut cupiditate.'}
+2020-03-11 13:48:35,775 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,775 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,775 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,775 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T20:19, amount=-3687.5, currency='EUR', detail='Ratione est distinctio.'}
+2020-03-11 13:48:35,776 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,776 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,776 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,776 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-11T17:29:47, amount=1983.89, currency='EUR', detail='Eligendi aspernatur pariatur magnam autem debitis.'}
+2020-03-11 13:48:35,776 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,776 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,776 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,776 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-15T05:01:02, amount=-1209.75, currency='EUR', detail='Non ut necessitatibus magnam ex qui.'}
+2020-03-11 13:48:35,777 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,777 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,777 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,777 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T00:47:55, amount=-1813.09, currency='EUR', detail='Est et quia ipsum quo temporibus.'}
+2020-03-11 13:48:35,777 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,777 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,777 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,777 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T19:59:28, amount=-4493.01, currency='EUR', detail='Omnis totam mollitia.'}
+2020-03-11 13:48:35,778 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,778 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,778 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,778 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-13T02:39:06, amount=4596.44, currency='EUR', detail='Sunt saepe vitae sit exercitationem.'}
+2020-03-11 13:48:35,778 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,778 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,778 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,778 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-14T14:18:52, amount=-1588.08, currency='EUR', detail='Et distinctio quaerat explicabo omnis ea et.'}
+2020-03-11 13:48:35,779 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,779 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,779 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,779 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T20:28:52, amount=-2902.44, currency='EUR', detail='Quos perferendis ea.'}
+2020-03-11 13:48:35,779 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,779 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,780 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,780 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-14T19:33:17, amount=1843.09, currency='EUR', detail='Culpa quia sit tempora ut sapiente ut.'}
+2020-03-11 13:48:35,780 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,780 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,780 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,780 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T14:39:06, amount=-3229.79, currency='EUR', detail='Illum et voluptas quaerat.'}
+2020-03-11 13:48:35,780 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,780 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,780 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,781 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T06:49:12, amount=-777.58, currency='EUR', detail='Odit id perferendis ipsa dolorum quidem asperiores animi.'}
+2020-03-11 13:48:35,781 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,781 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,781 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,781 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T00:00:49, amount=2142.16, currency='EUR', detail='Laudantium expedita asperiores numquam molestiae ipsa similique.'}
+2020-03-11 13:48:35,781 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,782 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,782 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,782 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-05T05:42:21, amount=-1175.43, currency='EUR', detail='Tenetur dicta et quibusdam reprehenderit velit qui tenetur.'}
+2020-03-11 13:48:35,782 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,782 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,782 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,782 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-18T19:10:40, amount=1699.94, currency='EUR', detail='Non et molestiae.'}
+2020-03-11 13:48:35,782 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,783 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,783 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,783 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T08:01, amount=-300.01, currency='EUR', detail='Ratione consequatur nisi deserunt optio.'}
+2020-03-11 13:48:35,783 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,783 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,783 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,783 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-14T13:52:13, amount=-3338.4, currency='EUR', detail='Eos dolorem et aut.'}
+2020-03-11 13:48:35,783 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-14T05:26:44, amount=2527.11, currency='EUR', detail='Eveniet natus optio et nisi suscipit autem molestiae.'}
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-07T23:23:57, amount=3703.59, currency='EUR', detail='Ducimus alias est aut.'}
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T19:16:04, amount=-3656.82, currency='EUR', detail='Molestiae vitae quas repellat in.'}
+2020-03-11 13:48:35,784 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,785 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,785 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,785 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T03:44:06, amount=4852.33, currency='EUR', detail='Reiciendis molestias ab alias eaque est odio.'}
+2020-03-11 13:48:35,785 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,785 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,785 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,785 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T03:37:16, amount=-3277.48, currency='EUR', detail='Fugit id sapiente tempora ea inventore est.'}
+2020-03-11 13:48:35,785 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,786 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,786 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,786 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-16T18:33:08, amount=3254.66, currency='EUR', detail='Voluptate perferendis dolore et vitae in alias assumenda.'}
+2020-03-11 13:48:35,786 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,786 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,786 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,786 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-16T02:56:06, amount=-2879.21, currency='EUR', detail='Ut aliquid sequi culpa aut atque.'}
+2020-03-11 13:48:35,786 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,786 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,786 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,786 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-01-29T02:54:35, amount=4417.42, currency='EUR', detail='Veniam corrupti magni dolorum iusto autem id aperiam.'}
+2020-03-11 13:48:35,787 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,787 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,787 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,787 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T12:22:21, amount=2499.12, currency='EUR', detail='Earum voluptas ipsum autem debitis incidunt.'}
+2020-03-11 13:48:35,787 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,787 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,787 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,787 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-13T10:13:18, amount=2744.24, currency='EUR', detail='Aut optio nemo quidem autem culpa odio.'}
+2020-03-11 13:48:35,788 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,788 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,788 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,788 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T19:58:56, amount=-1924.84, currency='EUR', detail='Voluptas dicta eaque.'}
+2020-03-11 13:48:35,788 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,788 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,788 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,788 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T20:32:33, amount=3726.25, currency='EUR', detail='Atque laboriosam et ex.'}
+2020-03-11 13:48:35,788 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,788 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,789 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,789 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-10T04:00, amount=4015.99, currency='EUR', detail='Non est et quisquam illum atque nihil.'}
+2020-03-11 13:48:35,789 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,789 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,789 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,790 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T20:07:25, amount=4072.9, currency='EUR', detail='Ex harum nihil harum perferendis.'}
+2020-03-11 13:48:35,790 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,790 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,790 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,790 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-01-30T15:23:50, amount=-3436.31, currency='EUR', detail='Ex distinctio ut facilis.'}
+2020-03-11 13:48:35,790 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,791 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,791 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,791 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-13T22:29:42, amount=1237.65, currency='EUR', detail='Nihil nihil id nam ipsam.'}
+2020-03-11 13:48:35,791 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,791 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,791 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,791 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T07:52:17, amount=-1507.91, currency='EUR', detail='Dolor amet labore voluptates aut quidem distinctio.'}
+2020-03-11 13:48:35,792 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,792 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,792 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,792 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-03T17:08:41, amount=-1947.64, currency='EUR', detail='Est ducimus repellendus aut excepturi aspernatur natus.'}
+2020-03-11 13:48:35,792 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,792 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,793 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,793 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-11T22:05:27, amount=3705.52, currency='EUR', detail='Nam fuga porro.'}
+2020-03-11 13:48:35,793 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,793 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,793 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,793 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-21T00:38:38, amount=-1926.95, currency='EUR', detail='Culpa iure qui.'}
+2020-03-11 13:48:35,793 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,794 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,794 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,794 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-22T05:09:10, amount=2857.78, currency='EUR', detail='Consectetur mollitia quidem et nemo aut ipsum.'}
+2020-03-11 13:48:35,794 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,794 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,794 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,795 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T04:27:13, amount=536.02, currency='EUR', detail='Incidunt quae impedit maiores tenetur consequatur.'}
+2020-03-11 13:48:35,795 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,795 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,795 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,795 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-20T15:24:22, amount=4700.25, currency='EUR', detail='Ratione aliquam aut eos.'}
+2020-03-11 13:48:35,795 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,795 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,795 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-12T07:54:22, amount=3932.19, currency='EUR', detail='Dolorum placeat excepturi nihil quam assumenda.'}
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-07T15:40:12, amount=1704.7, currency='EUR', detail='Quam voluptatem repellat dolor.'}
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-19T16:21:45, amount=-1494.65, currency='EUR', detail='Et voluptate quos ea.'}
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,796 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,797 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-15T09:14:30, amount=3259.89, currency='EUR', detail='Laboriosam ut velit optio aperiam est.'}
+2020-03-11 13:48:35,797 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,797 DEBUG b.p.s.u.BudgetPlannerImporter [main] Account Jos already exists, adding new payment
+2020-03-11 13:48:35,797 DEBUG b.p.s.u.BudgetPlannerImporter [main] Creating new Payment
+2020-03-11 13:48:35,797 DEBUG b.p.s.u.BudgetPlannerImporter [main] New Payment created: {date=2020-02-17T03:20:02, amount=2637.89, currency='EUR', detail='Rerum non magnam quia sint et et.'}
+2020-03-11 13:48:35,797 DEBUG b.p.s.u.BudgetPlannerImporter [main] Payment added to Jos
+2020-03-11 13:48:35,797 DEBUG b.p.s.u.BudgetPlannerImporter [main] Data imported
