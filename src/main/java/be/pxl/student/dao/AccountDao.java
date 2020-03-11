@@ -4,9 +4,12 @@ import be.pxl.student.entity.Account;
 import jdk.jshell.spi.ExecutionControl;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class AccountDao {
     private static final String SELECT_BY_ID = "SELECT * FROM account WHERE id = ?";
+    private static final String SELECT = "SELECT * FROM account";
     private static final String UPDATE = "UPDATE account SET name=?, IBAN=? WHERE id = ?";
     private static final String INSERT = "INSERT INTO account (name, IBAN) VALUES (?, ?)";
     private static final String DELETE = "DELETE FROM account WHERE id = ?";
@@ -18,6 +21,19 @@ public class AccountDao {
         this.url = url;
         this.user = user;
         this.password = password;
+    }
+
+    public List<Account> read() {
+        List<Account> accounts = new ArrayList<>();
+        try (Connection connection = getConnection(); PreparedStatement stmt = connection.prepareStatement(SELECT)) {
+            ResultSet rs = stmt.executeQuery();
+            while(rs.next()) {
+                 accounts.add(mapAccount(rs));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return accounts;
     }
 
     public Account createAccount(Account account) {

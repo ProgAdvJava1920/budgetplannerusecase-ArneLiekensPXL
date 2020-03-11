@@ -5,9 +5,12 @@ import be.pxl.student.entity.Payment;
 
 import java.sql.*;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PaymentDao {
     private static final String SELECT_BY_ID = "SELECT * FROM payment WHERE id = ?";
+    private static final String SELECT = "SELECT * FROM payment";
     private static final String SELECT_BY_ACCOUNT_ID = "SELECT * FROM payment WHERE accountId = ?";
     private static final String UPDATE = "UPDATE payment SET date=?, amount=?, currency=?, detail=?, accountId=? WHERE id = ?";
     private static final String INSERT = "INSERT INTO payment (date, amount, currency, detail, accountId, counterAccountId) VALUES (?, ?, ?, ?, ?, ?)";
@@ -33,6 +36,19 @@ public class PaymentDao {
             e.printStackTrace();
         }
         return null;
+    }
+
+    public List<Payment> read() {
+        List<Payment> payments = new ArrayList<>();
+        try (Connection connection = getConnection(); PreparedStatement stmt = connection.prepareStatement(SELECT)) {
+            ResultSet rs = stmt.executeQuery();
+            while(rs.next()) {
+                payments.add(mapPayment(rs));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return payments;
     }
 
     public Payment createPayment(Payment payment, Account account, Account counterAccount) {
@@ -103,8 +119,8 @@ public class PaymentDao {
 
         Payment payment = new Payment(rs.getTimestamp("date").toLocalDateTime(), rs.getFloat("amount"), rs.getString("currency"), rs.getString("detail"));
         payment.setId(rs.getInt("id"));
-
-
+        payment.setAccountId(rs.getInt("accountId"));
+        payment.setCounterAccountId(rs.getInt("counterAccountId"));
         return payment;
     }
 }

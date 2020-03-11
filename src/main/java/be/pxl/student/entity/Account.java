@@ -10,10 +10,12 @@ public class Account {
     private String IBAN;
     private String name;
     private List<Payment> payments;
+    private List<Payment> counterPayments;
     private int id;
 
     public Account() {
         this.payments = new ArrayList<>();
+        this.counterPayments = new ArrayList<>();
     }
 
     public String getIBAN() {
@@ -42,6 +44,10 @@ public class Account {
 
     public void addPayment(Payment payment) {
         this.payments.add(payment);
+    }
+
+    public void addCounterPayment(Payment payment) {
+        this.counterPayments.add(payment);
     }
 
     public void setId(int id) {
