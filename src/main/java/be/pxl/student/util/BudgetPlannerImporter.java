@@ -6,9 +6,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.Month;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.logging.log4j.*;
@@ -77,7 +75,7 @@ public class BudgetPlannerImporter {
         LocalDateTime date = LocalDateTime.of(Integer.parseInt(dateArray[5]), MonthShort.valueOf(dateArray[1].toUpperCase()).getValue(), Integer.parseInt(dateArray[2]), Integer.parseInt(time[0]), Integer.parseInt(time[1]), Integer.parseInt(time[2]));
 
         Payment payment = new Payment(date, ammount, currency, details);
-        payment.setCounterAccount(counterAccount);
+        payment.setCounterAccountString(counterAccount);
         logger.debug("New Payment created: " + payment.toString());
         return payment;
     }

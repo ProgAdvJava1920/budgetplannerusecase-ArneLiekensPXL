@@ -1,21 +1,32 @@
 package be.pxl.student.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
-
+@Entity
 public class Account {
 
+    @Id
+    private int id;
     private String IBAN;
     private String name;
+    @OneToMany
     private List<Payment> payments;
+    @OneToMany
     private List<Payment> counterPayments;
-    private int id;
+
 
     public Account() {
         this.payments = new ArrayList<>();
         this.counterPayments = new ArrayList<>();
+    }
+
+    public void setCounterPayments(List<Payment> counterPayments) {
+        this.counterPayments = counterPayments;
     }
 
     public String getIBAN() {
@@ -55,7 +66,7 @@ public class Account {
             amount -= amount;
         }
         Payment counterPayment = new Payment(payment.getDate(), amount, payment.getCurrency(), payment.getDetail());
-        counterPayment.setCounterAccount(payment.getCounterAccount());
+        counterPayment.setCounterAccountString(payment.getCounterAccountString());
         counterPayment.setCounterAccountId(payment.getCounterAccountId());
         payment.setAccountId(payment.getAccountId());
         payment.setId(payment.getId());

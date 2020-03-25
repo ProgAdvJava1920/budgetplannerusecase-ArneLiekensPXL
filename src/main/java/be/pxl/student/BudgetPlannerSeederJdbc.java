@@ -11,7 +11,7 @@ import java.nio.file.Path;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class BudgetPlannerSeeder {
+public class BudgetPlannerSeederJdbc {
     public static void main(String[] args) {
         List<Account> accounts = null;
         try {
@@ -27,7 +27,7 @@ public class BudgetPlannerSeeder {
             for (Account account: accounts) {
                 for (Payment payment:account.getPayments()) {
                     try {
-                        Account counterAccount = accounts.stream().filter(r -> r.getIBAN().equals(payment.getCounterAccount())).findFirst().get();
+                        Account counterAccount = accounts.stream().filter(r -> r.getIBAN().equals(payment.getCounterAccountString())).findFirst().get();
                         LogManager.getLogger().debug(counterAccount);
                         paymentDao.createPayment(payment, account, counterAccount);
                     } catch (NoSuchElementException e) {
@@ -38,7 +38,5 @@ public class BudgetPlannerSeeder {
         } catch (Exception e) {
             LogManager.getLogger().error(e);
         }
-
-
     }
 }

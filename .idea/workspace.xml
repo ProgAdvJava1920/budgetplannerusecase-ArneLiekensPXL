@@ -2,15 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee36e21-b19a-4702-9194-8329b5969f62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_58_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_abego_treelayout_org_abego_treelayout_core_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_ST4_4_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_4_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_0_0_Alpha4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerSeeder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_2_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_2_5_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/output.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/output.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlannerSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlannerSeeder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BudgetPlanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BudgetPlanner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlannerJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlannerSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/BudgetPlannerSeederJdbc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/account_payments.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/account_payments.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/account_payments.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account_payments.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/BudgetPlanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/BudgetPlanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/student/entity/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/entity/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/student/util/BudgetPlannerImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/be/pxl/student/util/BudgetPlannerImporterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/be/pxl/student/util/BudgetPlannerJdbcImporterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,18 +122,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/ArneLiekensPXL/JA2_introduction_jdbc.git" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\pxl\Tweede_jaar\Semester_2\java\oefeningen\budgetplannerusecase-ArneLiekensPXL" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\pxl\Tweede_jaar\Semester_2\java\oefeningen\budgetplannerusecase-ArneLiekensPXL\src" />
       <recent name="D:\pxl\Tweede_jaar\Semester_2\java\oefeningen\budgetplannerusecase-ArneLiekensPXL\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pxl\Tweede_jaar\Semester_2\java\oefeningen\budgetplannerusecase-ArneLiekensPXL\src\main\resources\META-INF" />
+      <recent name="D:\pxl\Tweede_jaar\Semester_2\java\oefeningen\budgetplannerusecase-ArneLiekensPXL" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -113,20 +144,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BudgetPlanner">
-    <configuration name="BudgetPlanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.pxl.student.BudgetPlanner" />
-      <module name="BudgetPlanner" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.pxl.student.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BudgetPlannerJdbc">
     <configuration name="BudgetPlannerFeeder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.pxl.student.util.BudgetPlannerFeeder" />
       <module name="BudgetPlanner" />
@@ -140,8 +158,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BudgetPlannerSeeder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.pxl.student.BudgetPlannerSeeder" />
+    <configuration name="BudgetPlannerJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.pxl.student.BudgetPlannerJdbc" />
       <module name="BudgetPlanner" />
       <extension name="coverage">
         <pattern>
@@ -153,7 +171,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BudgetPlannerImporterTest.importDataCreates2AccountsWhenNeeded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BudgetPlannerSeederJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.pxl.student.BudgetPlannerSeederJdbc" />
+      <module name="BudgetPlanner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.pxl.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BudgetPlannerJdbcImporterTest.importDataCreates2AccountsWhenNeeded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BudgetPlanner" />
       <extension name="coverage">
         <pattern>
@@ -162,14 +193,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.pxl.student.util" />
-      <option name="MAIN_CLASS_NAME" value="be.pxl.student.util.BudgetPlannerImporterTest" />
+      <option name="MAIN_CLASS_NAME" value="be.pxl.student.util.BudgetPlannerJdbcImporterTest" />
       <option name="METHOD_NAME" value="importDataCreates2AccountsWhenNeeded" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BudgetPlannerImporterTest.importDataCreatesAccountListWithAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BudgetPlannerJdbcImporterTest.importDataCreatesAccountListWithAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BudgetPlanner" />
       <extension name="coverage">
         <pattern>
@@ -178,7 +209,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.pxl.student.util" />
-      <option name="MAIN_CLASS_NAME" value="be.pxl.student.util.BudgetPlannerImporterTest" />
+      <option name="MAIN_CLASS_NAME" value="be.pxl.student.util.BudgetPlannerJdbcImporterTest" />
       <option name="METHOD_NAME" value="importDataCreatesAccountListWithAccounts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -187,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BudgetPlanner" />
-        <item itemvalue="Application.BudgetPlannerSeeder" />
+        <item itemvalue="Application.BudgetPlannerJdbc" />
+        <item itemvalue="Application.BudgetPlannerSeederJdbc" />
         <item itemvalue="Application.BudgetPlannerFeeder" />
-        <item itemvalue="JUnit.BudgetPlannerImporterTest.importDataCreatesAccountListWithAccounts" />
-        <item itemvalue="JUnit.BudgetPlannerImporterTest.importDataCreates2AccountsWhenNeeded" />
+        <item itemvalue="JUnit.BudgetPlannerJdbcImporterTest.importDataCreatesAccountListWithAccounts" />
+        <item itemvalue="JUnit.BudgetPlannerJdbcImporterTest.importDataCreates2AccountsWhenNeeded" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +266,10 @@
       <workItem from="1583330807476" duration="3837000" />
       <workItem from="1583409450502" duration="271000" />
       <workItem from="1583833776407" duration="1921000" />
-      <workItem from="1583929843883" duration="6522000" />
+      <workItem from="1583929843883" duration="6871000" />
+      <workItem from="1584534524091" duration="633000" />
+      <workItem from="1584535883074" duration="2982000" />
+      <workItem from="1585131492149" duration="2009000" />
     </task>
     <task id="LOCAL-00001" summary="AccountDao working">
       <created>1583334522227</created>
@@ -272,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583934755046</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Can now ask payments and counterpayments from certain account">
+      <created>1583936519911</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583936519911</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +325,8 @@
     <MESSAGE value="PaymentDAO working" />
     <MESSAGE value="Also seeds counterAccountId; added class BudgetPlannerSeeder" />
     <MESSAGE value="Reads data from Database and puts it into a list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reads data from Database and puts it into a list" />
+    <MESSAGE value="Can now ask payments and counterpayments from certain account" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can now ask payments and counterpayments from certain account" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#New_Docker_Connection" timestamp="1583328995096">
@@ -295,59 +337,64 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="418" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583331269056" />
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1583936129959">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="718" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1585133389863">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583936129959" />
-    <state x="270" y="11" key="CommitChangelistDialog2" timestamp="1583934752052">
+    <state x="718" y="150" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585133389863" />
+    <state x="757" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585133447855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="757" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585133447855" />
+    <state x="270" y="11" key="CommitChangelistDialog2" timestamp="1583936516716">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583934752052" />
+    <state x="270" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583936516716" />
     <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1583334184350">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="242" height="189" key="DatabaseViewActions_Filter/0.0.1536.824@0.0.1536.824" timestamp="1583334184350" />
-    <state x="686" y="215" key="FileChooserDialogImpl" timestamp="1583409719408">
+    <state x="686" y="215" key="FileChooserDialogImpl" timestamp="1585131629089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583331549412" />
-    <state x="686" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583409719408" />
-    <state width="1493" height="127" key="GridCell.Tab.0.bottom" timestamp="1583936377696">
+    <state x="686" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585131629089" />
+    <state width="1877" height="173" key="GridCell.Tab.0.bottom" timestamp="1584539901918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583938659329" />
+    <state width="1877" height="173" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584539901918" />
+    <state width="1877" height="173" key="GridCell.Tab.0.center" timestamp="1584539901917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583938659328" />
+    <state width="1877" height="173" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584539901917" />
+    <state width="1877" height="173" key="GridCell.Tab.0.left" timestamp="1584539901917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583938659328" />
+    <state width="1877" height="173" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584539901917" />
+    <state width="1877" height="173" key="GridCell.Tab.0.right" timestamp="1584539901917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583938659329" />
+    <state width="1877" height="173" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584539901917" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583938659330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583936377696" />
-    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
-    <state width="1493" height="127" key="GridCell.Tab.0.center" timestamp="1583936377696">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583938659330" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1583938659329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583936377696" />
-    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
-    <state width="1493" height="127" key="GridCell.Tab.0.left" timestamp="1583936377695">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583938659329" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1583938659329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583936377695" />
-    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088261" />
-    <state width="1493" height="127" key="GridCell.Tab.0.right" timestamp="1583936377696">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583938659329" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1583938659330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="127" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583936377696" />
-    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583353088262" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583935428453">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583935428453" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1583935428453">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583935428453" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1583935428453">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583935428453" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1583935428453">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583935428453" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583938659330" />
     <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1583934758692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -356,19 +403,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="63" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1583334030458" />
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1583929898307">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="596" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1585131497050">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583929898307" />
-    <state x="596" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583409709538" />
+    <state x="596" y="303" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585131497050" />
     <state x="540" y="145" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582721531791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="145" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1582721531791" />
-    <state x="209" y="117" key="new project wizard" timestamp="1582716097166">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="153" y="201" key="new project wizard" timestamp="1584535714829">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="209" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582716097166" />
+    <state x="153" y="201" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584535714829" />
     <state x="511" y="47" key="refactoring.ChangeSignatureDialog" timestamp="1583834571689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
