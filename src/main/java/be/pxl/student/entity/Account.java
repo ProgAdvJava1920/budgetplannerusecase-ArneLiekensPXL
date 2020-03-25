@@ -1,8 +1,6 @@
 package be.pxl.student.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -11,12 +9,13 @@ import java.util.stream.Collectors;
 public class Account {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String IBAN;
     private String name;
-    @OneToMany
+    @OneToMany(cascade = {CascadeType.ALL}, mappedBy = "account")
     private List<Payment> payments;
-    @OneToMany
+    @OneToMany(cascade = {CascadeType.ALL}, mappedBy = "account")
     private List<Payment> counterPayments;
 
 
