@@ -24,6 +24,8 @@ public class Account {
         this.counterPayments = new ArrayList<>();
     }
 
+
+
     public void setCounterPayments(List<Payment> counterPayments) {
         this.counterPayments = counterPayments;
     }
@@ -57,19 +59,7 @@ public class Account {
     }
 
     public void addCounterPayment(Payment payment) {
-        float amount = payment.getAmount();
-        if(amount < 0) {
-            amount = Math.abs(amount);
-        } else {
-            amount -= amount;
-            amount -= amount;
-        }
-        Payment counterPayment = new Payment(payment.getDate(), amount, payment.getCurrency(), payment.getDetail());
-        counterPayment.setCounterAccountString(payment.getCounterAccountString());
-        counterPayment.setCounterAccountId(payment.getCounterAccountId());
-        payment.setAccountId(payment.getAccountId());
-        payment.setId(payment.getId());
-        this.counterPayments.add(counterPayment);
+        this.counterPayments.add(payment);
     }
 
     public List<Payment> getCounterPayments() {

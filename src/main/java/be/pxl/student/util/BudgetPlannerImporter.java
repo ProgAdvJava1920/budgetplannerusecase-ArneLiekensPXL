@@ -8,6 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import org.apache.logging.log4j.*;
 
@@ -17,9 +18,15 @@ import org.apache.logging.log4j.*;
 public class BudgetPlannerImporter {
 
     private static Logger logger;
+    private HashMap<Payment, String> counterAccounts;
 
     public BudgetPlannerImporter() {
         logger = LogManager.getLogger();
+        this.counterAccounts = new HashMap<>();
+    }
+
+    public HashMap<Payment, String> getCounterAccounts() {
+        return counterAccounts;
     }
 
     public List<Account> importData(Path filePath) {
@@ -48,12 +55,16 @@ public class BudgetPlannerImporter {
         if(accounts.contains(account)) {
             logger.debug("Account " + account.getName() + " already exists, adding new payment");
             int index = accounts.indexOf(account);
-            accounts.get(index).getPayments().add(createPayment(seperatedLine));
+            Payment payment = createPayment(seperatedLine);
+            payment.setAccount(accounts.get(index));
+            accounts.get(index).getPayments().add(payment);
             logger.debug("Payment added to " + account.getName());
         } else {
             logger.debug("Creating new Account");
             List<Payment> payments = new ArrayList<>();
-            payments.add(createPayment(seperatedLine));
+            Payment payment = createPayment(seperatedLine);
+            payment.setAccount(account);
+            payments.add(payment);
             account.setPayments(payments);
             accounts.add(account);
             logger.debug("New Account created: " + account.toString());
@@ -74,8 +85,12 @@ public class BudgetPlannerImporter {
 
         LocalDateTime date = LocalDateTime.of(Integer.parseInt(dateArray[5]), MonthShort.valueOf(dateArray[1].toUpperCase()).getValue(), Integer.parseInt(dateArray[2]), Integer.parseInt(time[0]), Integer.parseInt(time[1]), Integer.parseInt(time[2]));
 
-        Payment payment = new Payment(date, ammount, currency, details);
-        payment.setCounterAccountString(counterAccount);
+        Payment payment = new Payment();
+        payment.setDate(date);
+        payment.setAmount(ammount);
+        payment.setCurrency(currency);
+        payment.setDetail(details);
+        this.counterAccounts.put(payment, counterAccount);
         logger.debug("New Payment created: " + payment.toString());
         return payment;
     }

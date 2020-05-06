@@ -13,39 +13,13 @@ public class Payment {
     private float amount;
     private String currency;
     private String detail;
-    @Transient
-    private int accountId;
     @ManyToOne
     private Account account;
-    //needed for jdbc
-    @Transient
-    private String counterAccountString;
-    @Transient
-    private int counterAccountId;
     @ManyToOne
     private Account counterAccount;
-    @ManyToOne
-    private Label label;
 
-
-    //constructor only here because it was given this way and jdbc implemented this way
-    public Payment(LocalDateTime date, float amount, String currency, String detail) {
-        this.date = date;
-        this.amount = amount;
-        this.currency = currency;
-        this.detail = detail;
-    }
 
     public Payment() { }
-
-    public Label getLabel() {
-        return label;
-    }
-
-    public void setLabel(Label label) {
-        this.label = label;
-    }
-
     public Account getAccount() {
         return account;
     }
@@ -100,30 +74,6 @@ public class Payment {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getCounterAccountString() {
-        return counterAccountString;
-    }
-
-    public void setCounterAccountString(String counterAccount) {
-        this.counterAccountString = counterAccount;
-    }
-
-    public int getCounterAccountId() {
-        return counterAccountId;
-    }
-
-    public void setCounterAccountId(int counterAccountId) {
-        this.counterAccountId = counterAccountId;
-    }
-
-    public int getAccountId() {
-        return accountId;
-    }
-
-    public void setAccountId(int accountId) {
-        this.accountId = accountId;
     }
 
     @Override

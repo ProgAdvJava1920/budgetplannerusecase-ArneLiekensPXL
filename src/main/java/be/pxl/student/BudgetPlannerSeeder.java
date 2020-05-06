@@ -10,6 +10,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import java.nio.file.Path;
+import java.util.HashMap;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -21,16 +22,20 @@ public class BudgetPlannerSeeder {
         BudgetPlannerImporter budgetPlannerImporter = new BudgetPlannerImporter();
 
         accounts = budgetPlannerImporter.importData(Path.of("src/main/resources/account_payments.csv"));
+        HashMap<Payment, String> counterPayments = budgetPlannerImporter.getCounterAccounts();
 
         for (Account account:
                 accounts) {
             for (Payment payment:
                     account.getPayments()) {
+                String counter = counterPayments.get(payment);
+                if(accounts.stream().anyMatch(r -> r.getIBAN().equals(counter))) {
+                    Account counterAccount = accounts.stream().filter(r -> r.getIBAN().equals(counter)).findFirst().get();
+                    payment.setCounterAccount(counterAccount);
+                    counterAccount.addCounterPayment(payment);
+                    LogManager.getLogger().debug(counterAccount);
+                }
 
-                Account counterAccount = accounts.stream().filter(r -> r.getIBAN().equals(payment.getCounterAccountString())).findFirst().get();
-                payment.setCounterAccount(counterAccount);
-                counterAccount.addCounterPayment(payment);
-                LogManager.getLogger().debug(counterAccount);
             }
 
         }
