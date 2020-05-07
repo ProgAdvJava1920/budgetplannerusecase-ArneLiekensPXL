@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 @Entity
+@NamedQuery(name="account.getAll", query = "SELECT a FROM Account as a")
 public class Account {
 
     @Id
@@ -23,8 +24,6 @@ public class Account {
         this.payments = new ArrayList<>();
         this.counterPayments = new ArrayList<>();
     }
-
-
 
     public void setCounterPayments(List<Payment> counterPayments) {
         this.counterPayments = counterPayments;

@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
+@NamedQuery(name="payment.getAll", query = "SELECT p FROM Payment as p")
 public class Payment {
 
     @Id
