@@ -1,9 +1,12 @@
 package be.pxl.student.dao;
 
 import be.pxl.student.entity.Account;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
+import javax.persistence.NoResultException;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
@@ -38,10 +41,48 @@ public class AccountDao implements IAccount{
     }
 
     @Override
+    public Account getByName(String name) {
+        Account account;
+        EntityTransaction transaction = entityManager.getTransaction();
+        Logger logger = LogManager.getLogger();
+        transaction.begin();
+
+        TypedQuery<Account> query = entityManager.createNamedQuery("account.getByName", Account.class);
+        query.setParameter("name", name);
+        try {
+            account = query.getSingleResult();
+        } catch (NoResultException e) {
+            account = null;
+        }
+        transaction.commit();
+        return account;
+    }
+
+    @Override
+    public Account getByIban(String iban) {
+        Account account;
+        EntityTransaction transaction = entityManager.getTransaction();
+        Logger logger = LogManager.getLogger();
+        transaction.begin();
+
+        TypedQuery<Account> query = entityManager.createNamedQuery("account.getByIban", Account.class);
+        query.setParameter("iban", iban);
+        try {
+            account = query.getSingleResult();
+        } catch (NoResultException e) {
+            account = null;
+        }
+        transaction.commit();
+        return account;
+    }
+
+    @Override
     public Account addAccount(Account account) {
+        Logger logger = LogManager.getLogger();
         EntityTransaction transaction = entityManager.getTransaction();
 
         transaction.begin();
+        logger.debug(account);
 
         entityManager.persist(account);
 

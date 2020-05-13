@@ -18,6 +18,8 @@ public class Payment {
     private Account account;
     @ManyToOne
     private Account counterAccount;
+    @ManyToOne
+    private Label label;
 
 
     public Payment() { }
@@ -75,6 +77,14 @@ public class Payment {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public Label getLabel() {
+        return label;
+    }
+
+    public void setLabel(Label label) {
+        this.label = label;
     }
 
     @Override

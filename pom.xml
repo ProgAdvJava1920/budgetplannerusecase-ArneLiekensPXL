@@ -5,7 +5,7 @@
 	<groupId>be.pxl.student</groupId>
 	<artifactId>BudgetPlanner</artifactId>
 	<version>SNAPSHOT-1.0</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>BudgetPlanner</name>
 	<url>http://maven.apache.org</url>
@@ -16,8 +16,24 @@
 		<maven.compiler.source>11</maven.compiler.source>
 	</properties>
 
-	<dependencies>
+	<build>
+	<finalName>BudgetPlanner</finalName>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.tomee.maven</groupId>
+			<artifactId>tomee-maven-plugin</artifactId>
+			<version>8.0.1</version>
+		</plugin>
+	</plugins>
+	</build>
 
+	<dependencies>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>8.0.1</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>com.github.javafaker</groupId>
 			<artifactId>javafaker</artifactId>
@@ -54,6 +70,12 @@
 			<groupId>org.hibernate.orm</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>6.0.0.Alpha4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-catalina</artifactId>
+			<version>7.0.42</version>
+			<scope>provided</scope>
 		</dependency>
 
 	</dependencies>

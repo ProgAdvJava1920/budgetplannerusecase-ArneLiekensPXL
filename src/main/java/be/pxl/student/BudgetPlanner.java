@@ -1,8 +1,10 @@
 package be.pxl.student;
 
 import be.pxl.student.dao.AccountDao;
+import be.pxl.student.dao.LabelDao;
 import be.pxl.student.dao.PaymentDao;
 import be.pxl.student.entity.Account;
+import be.pxl.student.entity.Label;
 import be.pxl.student.entity.Payment;
 
 import javax.persistence.EntityManager;
@@ -22,6 +24,8 @@ public class BudgetPlanner {
 
             AccountDao accountDao = new AccountDao(entityManager);
             PaymentDao paymentDao = new PaymentDao(entityManager);
+            LabelDao labelDao = new LabelDao(entityManager);
+
 
             //implement code here
 

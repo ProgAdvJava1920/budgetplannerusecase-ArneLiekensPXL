@@ -7,6 +7,8 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 @Entity
 @NamedQuery(name="account.getAll", query = "SELECT a FROM Account as a")
+@NamedQuery(name="account.getByName", query = "SELECT a FROM Account a WHERE a.name=:name")
+@NamedQuery(name="account.getByIban", query = "SELECT a FROM Account a WHERE a.IBAN=:iban")
 public class Account {
 
     @Id
