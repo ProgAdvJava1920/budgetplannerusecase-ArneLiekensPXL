@@ -1,10 +1,12 @@
 package be.pxl.student.dao;
 
+import be.pxl.student.entity.Label;
 import be.pxl.student.entity.Payment;
 import org.hibernate.Transaction;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
+import javax.persistence.NoResultException;
 import javax.persistence.TypedQuery;
 import java.util.List;
 

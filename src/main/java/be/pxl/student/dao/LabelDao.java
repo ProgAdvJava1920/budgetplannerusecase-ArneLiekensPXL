@@ -1,10 +1,14 @@
 package be.pxl.student.dao;
 
+import be.pxl.student.entity.Account;
 import be.pxl.student.entity.Label;
 import be.pxl.student.entity.Payment;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
+import javax.persistence.NoResultException;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
@@ -36,6 +40,24 @@ public class LabelDao implements ILabel {
 
         transaction.commit();
 
+        return label;
+    }
+
+    @Override
+    public Label getByName(String name) {
+        Label label;
+        EntityTransaction transaction = entityManager.getTransaction();
+
+        transaction.begin();
+
+        TypedQuery<Label> query = entityManager.createNamedQuery("label.getByName", Label.class);
+        query.setParameter("name", name.toLowerCase());
+        try {
+            label = query.getSingleResult();
+        } catch (NoResultException e) {
+            label = null;
+        }
+        transaction.commit();
         return label;
     }
 

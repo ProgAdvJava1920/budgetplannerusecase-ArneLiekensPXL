@@ -35,7 +35,7 @@ public class AccountsRest {
             account = accountDao.addAccount(account);
             entityManager.close();
 
-            return Response.status(Response.Status.CREATED).entity("").build();
+            return Response.status(Response.Status.CREATED).build();
         } else if(accountDao.getByIban(accountResource.getIban()) != null) {
             Account account = accountDao.getByIban(accountResource.getIban());
             if(account.getName() == null) {

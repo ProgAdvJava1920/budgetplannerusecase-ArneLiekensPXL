@@ -1,5 +1,6 @@
 package be.pxl.student.dao;
 
+import be.pxl.student.entity.Label;
 import be.pxl.student.entity.Payment;
 
 import java.util.List;
